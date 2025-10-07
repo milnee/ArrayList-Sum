@@ -16,10 +16,5 @@ class Solution {
             totalSum += supply;
         }
         System.out.println(totalSum);  // This should print the total sum of the supplies
-
-        //test
-        //test2
-
-        //test3
     }
 }
