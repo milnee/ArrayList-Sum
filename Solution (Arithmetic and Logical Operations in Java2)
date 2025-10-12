@@ -1,0 +1,17 @@
+class Solution {
+    public static void main(String[] args) {
+        // TODO: Declare and initialize variables for fuel capacity (1500 gallons), consumption (120 gallons/hour), and flight duration (2 hours)
+        // TODO: Use a logical operation to determine if the remaining fuel is more than half of the fuel capacity
+        // TODO: Print out the result in a format: "Enough fuel for the next journey? true/false "
+        // TODO: Calculate the remaining fuel after the flight
+
+        int fuelcapacity = 1500;
+        int consumption = 120;
+        int flightduration = 2;
+        
+        int fuelleft = fuelcapacity - (consumption * flightduration);
+        
+        System.out.println("Enough fuel for the next journey? " + (fuelleft > (fuelcapacity / 2)));
+        
+    }
+}
