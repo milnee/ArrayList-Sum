@@ -1,0 +1,21 @@
+class Solution {
+    public static void main(String[] args) {
+
+        // TODO: Assign the distance to the Moon (384400 kilometers) to a variable
+        // TODO: Assign the distance to Mars (225000000 kilometers) to another variable
+        // TODO: Compare the distance to the Moon to see if it's less than 1 million kilometers
+        // TODO: Check if the distance to Mars is greater than the distance to the Moon
+        // TODO: Print results of these two comparisons to the console
+        
+        int DistanceToMoon =  384400;
+        int DistanceToMars =  225000000;
+        
+        boolean Distancetomoonlessthan1million = DistanceToMoon < 1000000;
+        boolean Distancetomarsgreatherthanmoon = DistanceToMars > DistanceToMoon;
+        
+        System.out.println(Distancetomarsgreatherthanmoon);
+        System.out.println(Distancetomoonlessthan1million);
+        
+
+    }
+}
