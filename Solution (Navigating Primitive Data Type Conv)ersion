@@ -1,0 +1,12 @@
+class Solution {
+    public static void main(String[] args) {
+        
+        // TODO: Convert the planetNumber integer to a double using casting.
+        // TODO: Now, convert the new double to a String
+        // Printing out the String value after conversion.
+        
+        int planetNumber = 7;
+        String planetNumberStr = Double.toString((planetNumber));
+        System.out.println("In our galaxy, the planet count is: " + planetNumberStr);
+    }
+}
