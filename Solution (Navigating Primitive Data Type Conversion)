@@ -1,0 +1,12 @@
+class Solution {
+    public static void main(String[] args) {
+        // A star's temperature in Kelvin
+        // TODO: Convert the temperature from a double to a String
+        // Displaying the temperature as text
+
+        double starTemperature = 15000.95;
+        String temperatureText = Double.toString(starTemperature);
+
+        System.out.println("Mission control, the star's temperature is: " + temperatureText + "K");
+    }
+}
