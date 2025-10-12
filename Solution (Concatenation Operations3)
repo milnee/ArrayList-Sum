@@ -1,0 +1,20 @@
+class Solution {
+    public static void main(String[] args) {
+        
+        // TODO: Declare and initialize variables 'planet1', 'planet2' - planet names.
+        // TODO: Define two more integers - the number of moons each planet has.
+        // TODO: Use the StringBuilder or + operator to append the planet names and the total number of moons.
+        // TODO: Display the final message about the total moons of these giant planets.
+        
+        String planent1 = "Mars";
+        String planent2 = "Earth";
+        
+        int mars = 2;
+        int earth = 2;
+        
+        int add = mars + earth; 
+        String num = "Planent 1 is "+ planent1 + "\n" + "Planent 2 is " + planent2 + "\n" + "Total moons " + add;
+        System.out.println(num);
+
+    }
+}
