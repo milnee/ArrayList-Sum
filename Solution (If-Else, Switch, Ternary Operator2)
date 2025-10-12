@@ -1,0 +1,13 @@
+class Solution {
+    public static void main(String[] args) {
+        // TODO: Define a variable to store the comet's speed in km/s
+        // TODO: Use the ternary operator to decide what action to take based on the comet's speed
+        // and store the result in a variable
+        // Check if the comet's speed is less than 50 - if so, save the "Chasing comet!" message, otherwise - "Comet too fast, let it go!".
+        
+         int cometspeed = 50;
+         String action =  (cometspeed < 50) ? "Chasing comet!" : "Comet too fast let it go";
+         System.out.println(action);
+
+        }
+}
